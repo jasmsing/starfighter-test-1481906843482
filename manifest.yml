@@ -1,5 +1,5 @@
 declared-services:
-  BluePic-Cloudant:
+  Blue-cloudant:
     label: cloudantNoSQLDB
     plan: Lite
 applications:
@@ -10,4 +10,4 @@ applications:
   memory: 512M
   instances: 1
   services:
-  - newrelic
+  - Blue-cloudant
